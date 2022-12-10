@@ -1,20 +1,23 @@
 * {
   padding: 0%;
   margin: 0%;
+  overflow-y: hidden;
 }
 
 #page-1 {
+  scroll-snap-align: center;
   background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD);
   background-size: cover;
+  background-position: center;
   height: 100vh;
-  position: fixed;
-  top: 0%;
-  width: 100%;
 }
 #page-1 #top {
+  z-index: 3;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  width: 100%;
 }
 #page-1 #top .logo {
   padding-left: 30px;
@@ -48,58 +51,127 @@
   background: rgba(94, 94, 94, 0.349);
   border-radius: 2px;
 }
-#page-1 #type-vehicle {
-  margin-top: 40px;
+
+#page-2 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#page-3 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#page-4 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ddc135ed-1638-40fb-8ab1-f8045059ecef/bvlatuR/std/4096x2560/Homepage-Model-X-Desktop-LHD);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#page-5 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#page-6 {
+  scroll-snap-align: start end;
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global?quality=auto-medium&format=auto);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#page-7 {
+  scroll-snap-align: start end;
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#activ {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+#activ #type-vehicle {
+  padding-top: 130px;
   text-align: center;
 }
-#page-1 #type-vehicle #model {
+#activ #type-vehicle #model {
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 5;
 }
-#page-1 #type-vehicle .door {
+#activ #type-vehicle .door {
   height: 40px;
   cursor: pointer;
 }
-#page-1 #type-vehicle .door:hover .line-test {
+#activ #type-vehicle .door:hover .line-test {
   height: 2px;
 }
-#page-1 #type-vehicle .line-test {
+#activ #type-vehicle .line-test {
   width: 15%;
   height: 1px;
   background: rgb(39, 39, 39);
   margin: auto;
 }
-#page-1 #vehicle-shop {
+#activ #vehicle-shop {
   display: flex;
   justify-content: space-between;
   width: 30%;
   margin: auto;
   margin-top: 250px;
 }
-#page-1 #vehicle-shop .custom {
+#activ #vehicle-shop .custom {
+  width: 50%;
   padding: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
+  text-align: center;
   background: rgba(51, 51, 51, 0.603);
   border-radius: 3px;
   font-weight: 500;
   color: white;
+  margin: 3px;
   cursor: pointer;
 }
-#page-1 #vehicle-shop .inventory {
+#activ #vehicle-shop .inventory {
+  width: 50%;
   cursor: pointer;
   padding: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin: 3px;
+  text-align: center;
   background: rgba(235, 234, 234, 0.671);
   border-radius: 3px;
   font-weight: 500;
   color: rgb(48, 48, 48);
 }
-
-#page-2 {
-  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70);
-  background-size: cover;
-  height: 100vh;
+#activ .vehicle-btn {
+  justify-content: space-between;
+  padding: 20px;
+  width: 15%;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+}
+#activ .vehicle-btn .btn-down {
+  color: rgba(255, 255, 255, 0.459);
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(131, 131, 131, 0.466);
+  cursor: pointer;
+}
+#activ .vehicle-btn .btn-up {
+  color: rgba(255, 255, 255, 0.459);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(131, 131, 131, 0.466);
 }/*# sourceMappingURL=index.css.map */
