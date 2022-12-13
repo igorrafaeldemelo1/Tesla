@@ -1,0 +1,296 @@
+#model .flex {
+  display: flex;
+  justify-content: space-between;
+}
+#model #page-1 {
+  scroll-snap-align: center;
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD);
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+#model #page-1 a {
+  text-decoration: none;
+  color: black;
+}
+#model #page-1 #top {
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+#model #page-1 #top .logo {
+  padding-left: 30px;
+  font-size: larger;
+  font-family: tesla;
+  letter-spacing: 10;
+}
+#model #page-1 #top .menu-primary {
+  display: flex;
+}
+#model #page-1 #top .menu-primary .sec-menu {
+  cursor: pointer;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+#model #page-1 #top .menu-secundary {
+  display: flex;
+}
+#model #page-1 #top .menu-secundary .sec-menu {
+  cursor: pointer;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+#model #page-1 #top .sec-menu:hover {
+  background: rgba(94, 94, 94, 0.349);
+  border-radius: 2px;
+}
+#model #page-1 #type-vehicle {
+  margin-top: 280px;
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+#model #page-1 #type-vehicle #test-drive-link {
+  font-size: 15px;
+  font-weight: 400;
+}
+#model #page-1 .top-footer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
+#model #page-1 .top-footer .sec-box {
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+}
+#model #page-1 .top-footer .sec-box .text-1 {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 600;
+}
+#model #page-1 .top-footer .sec-box .text-2 {
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+#model #page-1 .top-footer .sec-box button {
+  background: rgba(255, 255, 255, 0);
+  border: solid 4px white;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  margin-top: 10%;
+}
+#model .shadow-black {
+  background: rgb(0, 0, 0);
+  height: 200px;
+  z-index: 2;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+#model .boddy {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop);
+  height: 100%;
+  background-size: cover;
+}
+#model .video {
+  background: black;
+  padding: 100px;
+  width: 100%;
+  padding-top: 0%;
+  text-align: center;
+}
+#model .video iframe {
+  width: 100%;
+  height: 100%;
+}
+#model .video .legend {
+  text-align: start;
+  width: 60%;
+  margin: auto;
+}
+#model .video .legend .title-video {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  color: white;
+}
+#model .video .legend .legend-video {
+  color: white;
+}
+#model .box {
+  margin: auto;
+  width: 80%;
+}
+#model .boddy-1 {
+  width: 100%;
+  margin: auto;
+  background: black;
+  padding-bottom: 100px;
+}
+#model .boddy-1 .line-1 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/180e927c-0542-4428-beb7-1411502fe3bb/bvlatuR/std/1040x584/MS-Interior-Grid-A-Desktop);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+#model .boddy-1 .line-text-1 {
+  padding: 50px;
+  text-align: start;
+  padding-top: 110px;
+  color: white;
+  font-size: medium;
+}
+#model .boddy-1 .line-text-1 .title-video {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#model .boddy-1 .line-2 {
+  width: 100%;
+}
+#model .boddy-1 .line-2 iframe {
+  height: 300px;
+  width: 100%;
+}
+#model .boddy-1 .line-3 {
+  width: 100%;
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ab165f41-fa4e-4abe-b82a-51bdc295cf42/bvlatuR/std/1040x584/MS-Interior-Grid-D-Desktop);
+}
+#model .boddy-2 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD);
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+}
+#model .boddy-2 .caixa {
+  width: 70%;
+  margin: auto;
+  padding-top: 220px;
+}
+#model .boddy-2 .caixa .text-1 {
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+}
+#model .boddy-2 .caixa .text-2 {
+  color: white;
+  font-size: 10psx;
+  font-weight: 600;
+}
+#model .boddy-3 .container {
+  width: 80%;
+  margin: auto;
+}
+#model .boddy-3 .container .box-1 {
+  width: 40%;
+  padding: 60px;
+}
+#model .boddy-3 .container .box-1 .text-1 {
+  font-size: 15px;
+}
+#model .boddy-3 .container .box-1 .text-2 {
+  font-size: 25px;
+}
+#model .boddy-3 .container .box-1 button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 80%;
+  padding: 4px;
+  font-weight: 400;
+  border: solid black 4px;
+}
+#model .boddy-3 .container .box-1 a {
+  background: rgb(217, 217, 217);
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 6px 60px 6px 60px;
+}
+#model .boddy-3 .container .box-2 {
+  width: 60%;
+  padding-top: 80px;
+}
+#model .boddy-3 .container-1 {
+  background: rgb(221, 221, 221);
+  padding-top: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+}
+#model .boddy-3 .container-1 .text-1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#model .boddy-3 .container-1 .text-2 {
+  color: rgb(69, 69, 69);
+}
+#model .boddy-3 .container-2 {
+  background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/a4207386-4e7d-4028-924c-f7f21a0781b4/bvlatuR/std/1920x900/model-s-performance-tri-motor-desktop_carousel-new);
+  background-size: cover;
+  height: 100vh;
+}
+#model .boddy-3 .container-3 {
+  width: 85%;
+  margin: auto;
+  padding-top: 100px;
+}
+#model .boddy-3 .container-3 .box-1 {
+  padding: 30px;
+  width: 47%;
+}
+#model .boddy-3 .container-3 .box-1 .text-1 {
+  height: 3px;
+  width: 100%;
+  margin: auto;
+  background: black;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#model .boddy-3 .container-3 .box-1 .text-2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+#model .boddy-3 .container-3 .box-1:hover {
+  background: rgb(233, 233, 233);
+}
+#model .boddy-3 .container-3 .box-2 {
+  padding: 30px;
+  width: 47%;
+}
+#model .boddy-3 .container-3 .box-2 .text-1 {
+  height: 3px;
+  width: 100%;
+  margin: auto;
+  background: black;
+  margin-bottom: 10px;
+}
+#model .boddy-3 .container-3 .box-2 .text-2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+#model .boddy-3 .container-3 .box-2:hover {
+  background: rgb(233, 233, 233);
+}/*# sourceMappingURL=index2.css.map */

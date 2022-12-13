@@ -22,13 +22,14 @@
 
 </head>
 
-<body>
-    <section >
+<body id="main">
+    <section  >
         <section id="page-1">
+            <div>
             <div id="top">
                 <div class="logo">TESLA</div>
                 <div class="menu-primary">
-                    <div class="sec-menu">Model S </div>
+                    <a href="modelS.html"><div class="sec-menu">Model S </div></a>
                     <div class="sec-menu">Model 3</div>
                     <div class="sec-menu">Model X</div>
                     <div class="sec-menu">Model Y</div>
@@ -40,19 +41,126 @@
                     <div class="sec-menu">Account</div>
                     <div class="sec-menu">Menu</div>
                 </div>
+                
+            </div>
+            <section  class="vehicle-btn solo"  >
+                <a href="#page-2" onclick="pageDown()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a> 
+            </section>
             </div>
         </section>
-        <section id="page-2"  onscroll="myScript()">
+        <section id="page-2" >
+            <section class="vehicle-btn-page-02" >
+                <a href="#page-3" onclick="pageDown01()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                <a href="#page-1">
+                    <div class="btn-up" onclick="pageup01()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+            </section>
         </section>
         <section id="page-3">
+            <section class="vehicle-btn-page-02" >
+                <a href="#page-4" onclick="pageDown02()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                <a href="#page-2">
+                    <div class="btn-up" onclick="pageup02()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+            </section>
         </section>
         <section id="page-4">
+            <section class="vehicle-btn-page-02" >
+                <a href="#page-5" onclick="pageDown03()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                <a href="#page-3">
+                    <div class="btn-up" onclick="pageup03()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+            </section>
         </section>
         <section id="page-5">
+            <section class="vehicle-btn-page-02" >
+                <a href="#page-6" onclick="pageDown04()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                <a href="#page-4">
+                    <div class="btn-up" onclick="pageup04()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+            </section>
         </section>
         <section id="page-6">
+            <section class="vehicle-btn-page-02" >
+                <a href="#page-7" onclick="pageDown05()">
+                    <div class="btn-down" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                <a href="#page-5">
+                    <div class="btn-up" onclick="pageup05()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+            </section>
         </section>
         <section id="page-7">
+            <section class="vehicle-btn-page-02 solo" >
+                <a href="#page-6" onclick="pageDown06()">
+                    <div class="btn-up" onclick="pageup06()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg>
+                    </div>
+                </a>
+                
+                
+            </section>
         </section>
         <section id="activ">
             <section id="type-vehicle">
@@ -66,25 +174,14 @@
                 <div class="custom">Custom Order</div>
                 <div class="inventory">Existing inventory</div>
             </section>
-            <section class="vehicle-btn" >
-                <div class="btn-down" onclick="pageDown()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-                      </svg>
-                </div>
-                <div class="btn-up" onclick="pageup()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                      </svg>
-                </div>
-                
-            </section>
+            
         </section>
     </section>
 
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="style/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="js/java.js"></script>
+
 
 
 </body>
