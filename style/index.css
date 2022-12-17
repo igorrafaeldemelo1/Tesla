@@ -200,4 +200,17 @@
   border-radius: 3px;
   font-weight: 500;
   color: rgb(48, 48, 48);
+}
+#main .white {
+  display: none;
+}
+@media (max-width: 800px) {
+  #main .white {
+    position: fixed;
+    top: 0px;
+    background: white;
+    height: 100vh;
+    width: 100%;
+    z-index: 16;
+  }
 }/*# sourceMappingURL=index.css.map */

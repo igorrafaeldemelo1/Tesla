@@ -5,7 +5,6 @@
     overflow-x: hidden;
 }
 #main {
-    
     #page-1 {
         a {
             text-decoration: none;
@@ -210,6 +209,21 @@
                 font-weight: 500;
                 color: rgb(48, 48, 48);
             }
+        }
+    }
+    .white{
+        display: none;
+    }
+    @media (max-width: 800px) {
+        .white{
+            
+            position:fixed;
+            top: 0px;
+            background: white;
+            height: 100vh;
+            width: 100%;
+            z-index: 16;
+
         }
     }
 }
